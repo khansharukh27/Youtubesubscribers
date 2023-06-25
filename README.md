@@ -29,9 +29,14 @@ The server will start listening on port 5000, and you should see the message "Ap
 Test the Endpoints: You can use tools like Postman or cURL to test the API endpoints. Here are a few examples:
 
 GET /subscribers: Retrieves all subscribers from the database.
+
 GET /subscribers/names: Retrieves predefined data from the data.js file.
+
+
 GET /subscribers/name/:name: Retrieves subscribers with a specific name.
+
 GET /subscribers/:id: Retrieves a subscriber by their ID.
+
 Make sure to replace :name and :id in the endpoint URLs with the actual values you want to search for.
 
 Feel free to modify the code according to your needs and add error handling, validation, and additional routes as required.
